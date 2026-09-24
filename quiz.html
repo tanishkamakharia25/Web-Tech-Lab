@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quiz</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f7f6;
+      margin: 0;
+      padding: 40px 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .quiz-container {
+      background-color: #ffffff;
+      max-width: 600px;
+      width: 100%;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    }
+
+    h1 {
+      color: #2c3e50;
+      margin-top: 0;
+      margin-bottom: 25px;
+      font-size: 28px;
+      border-bottom: 2px solid #eceff1;
+      padding-bottom: 15px;
+    }
+
+    .question {
+      margin-bottom: 25px;
+    }
+
+    h3 {
+      color: #34495e;
+      font-size: 18px;
+      margin-bottom: 12px;
+    }
+
+    label {
+      display: block;
+      background-color: #fafbfc;
+      padding: 12px 15px;
+      margin-bottom: 8px;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    label:hover {
+      background-color: #edf2f7;
+      border-color: #cbd5e0;
+    }
+
+    input[type="radio"] {
+      margin-right: 10px;
+      transform: scale(1.1);
+      vertical-align: middle;
+    }
+
+    .submit {
+      background-color: #3182ce;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-size: 16px;
+      font-weight: 600;
+      border-radius: 6px;
+      cursor: pointer;
+      width: 100%;
+      transition: background-color 0.2s ease;
+    }
+
+    .submit:hover {
+      background-color: #2b6cb0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="quiz-container">
+    <h1>General Knowledge Quiz</h1>
+    
+    <div class="question">
+      <h3>1. What is the capital of India?</h3>
+      <label><input type="radio" name="q1"> Mumbai</label>
+      <label><input type="radio" name="q1"> New Delhi</label>
+      <label><input type="radio" name="q1"> Chennai</label>
+      <label><input type="radio" name="q1"> Kolkata</label>
+    </div>
+
+    <div class="question">
+      <h3>2. Which planet is known as the Red Planet?</h3>
+      <label><input type="radio" name="q2"> Earth</label>
+      <label><input type="radio" name="q2"> Pluto</label>
+      <label><input type="radio" name="q2"> Mars</label>
+      <label><input type="radio" name="q2"> Neptune</label>
+    </div>
+
+    <div class="question">
+      <h3>3. How many days are there in a week?</h3>
+      <label><input type="radio" name="q3"> 7</label>
+      <label><input type="radio" name="q3"> 6</label>
+      <label><input type="radio" name="q3"> 5</label>
+      <label><input type="radio" name="q3"> 2</label>
+    </div>
+
+    <form action="thankyou.html">
+      <button class="submit" type="submit">Submit Quiz</button>
+    </form>
+  </div>
+</body>
+</html>
