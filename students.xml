@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="students.xsl"?>
+<college>
+<student>
+<id>101</id>
+<name>Rahul</name>
+<department>Computer Science</department>
+<year>2</year>
+<marks>85</marks>
+</student>
+<student>
+<id>102</id>
+<name>Priya</name>
+<department>Artificial Intelligence</department>
+<year>2</year>
+<marks>98</marks>
+</student>
+<student>
+<id>103</id>
+<name>Aayush</name>
+<department>Mechanical</department>
+<year>1</year>
+<marks>90</marks>
+</student>
+</college>
